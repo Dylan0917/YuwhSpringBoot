@@ -1,7 +1,5 @@
 package org.yu.restfulcrud.config;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
@@ -9,7 +7,6 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.yu.restfulcrud.component.LoginHandlerInterceptor;
-import org.yu.restfulcrud.component.LoginHandlerInterceptor2;
 import org.yu.restfulcrud.component.MyLocaleResolver;
 //该类已经弃用
 //import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
