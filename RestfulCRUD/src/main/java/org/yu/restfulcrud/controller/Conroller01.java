@@ -3,6 +3,7 @@ package org.yu.restfulcrud.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.yu.restfulcrud.exception.UserNotExistException;
 
 
 /**
@@ -15,7 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Conroller01 {
     @RequestMapping("/hello")
-    public String helloController(Model model){
+    public String helloController(String user,Model model){
+        if ("aaa".equals(user)){
+            throw new UserNotExistException();
+        }
         model.addAttribute("hello","你好啊");
         return "success";
     }

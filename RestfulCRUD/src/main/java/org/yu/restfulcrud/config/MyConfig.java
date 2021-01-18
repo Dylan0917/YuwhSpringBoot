@@ -8,6 +8,8 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.yu.restfulcrud.component.LoginHandlerInterceptor;
 import org.yu.restfulcrud.component.MyLocaleResolver;
+import org.yu.restfulcrud.dao.DepartmentDao;
+import org.yu.restfulcrud.entities.Department;
 //该类已经弃用
 //import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -41,14 +43,14 @@ public class MyConfig implements WebMvcConfigurer {
     //添加自定义拦截器 用户登陆判断
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
-                .excludePathPatterns("/login.html","/","/user/login","/error",
-                      //  "/**/*.html",            //html静态资源
-                        "/**/*.js",              //js静态资源
-                        "/**/*.css",             //css静态资源);
-                        "/**/*.svg",
-                        "/**/*.map",
-                        "/**/*.ico","/webjars/**");
+//        registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
+//                .excludePathPatterns("/login.html","/","/user/login","/error",
+//                      //  "/**/*.html",            //html静态资源
+//                        "/**/*.js",              //js静态资源
+//                        "/**/*.css",             //css静态资源);
+//                        "/**/*.svg",
+//                        "/**/*.map",
+//                        "/**/*.ico","/webjars/**");
 //        registry.addWebRequestInterceptor(new LoginHandlerInterceptor2()).addPathPatterns("/**");
     }
 }
