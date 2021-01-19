@@ -1,5 +1,7 @@
 package org.yu.restfulcrud.config;
 
+import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
+import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
@@ -53,4 +55,16 @@ public class MyConfig implements WebMvcConfigurer {
 //                        "/**/*.ico","/webjars/**");
 //        registry.addWebRequestInterceptor(new LoginHandlerInterceptor2()).addPathPatterns("/**");
     }
+//    定制嵌入式Servlet容器相关规则
+    @Bean
+    public WebServerFactoryCustomizer<TomcatServletWebServerFactory> webServerFactoryCustomizer(){
+        return new WebServerFactoryCustomizer<TomcatServletWebServerFactory>() {
+            @Override
+            public void customize(TomcatServletWebServerFactory factory) {
+                factory.setPort(8080);
+            }
+        };
+    }
+
+
 }
