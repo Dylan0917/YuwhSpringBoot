@@ -15,6 +15,7 @@
         <module>HelloWorld</module>
         <module>yamlstu</module>
         <module>RestfulCRUD</module>
+        <module>DataJDBC</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>
