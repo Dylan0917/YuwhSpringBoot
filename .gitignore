@@ -2,4 +2,6 @@
 HelloWorld/target/*
 yamlstu/target/*
 RestfulCRUD/target/*
+DataJDBC/target/*
+DataMyBatis/target/*
 .DS_store

@@ -16,6 +16,7 @@
         <module>yamlstu</module>
         <module>RestfulCRUD</module>
         <module>DataJDBC</module>
+        <module>DataMyBatis</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>
