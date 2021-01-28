@@ -3,7 +3,11 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://124.71.25.233/springBoot
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    initialization-mode: embedded
-    schema: department.sql
+    initialization-mode: never
+    schema:
+    - classpath:department.sql
+logging:
+  level:
+    root: info
