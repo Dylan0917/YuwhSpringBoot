@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    initialization-mode: never
+#    druid:
+#      stat-view-servlet:
+#        allow: all
+#        login-password: 123456
+#        login-username: admin
+#        enabled: true
+#      web-stat-filter:
+#        enabled: true
+#      username: root
+#      password: 123456
+#      url: jdbc:mysql://124.71.25.233/springBoot
+#      initial-size: 5
+#      min-idle: 5
+#      max-active: 20
+#      time-between-eviction-runs-millis: 60000
+#      db-type: mysql
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.71.25.233/springBoot
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      #自动创建库
+      ddl-auto: update
+    #显示SQL
+    show-sql: true
+logging:
+  level:
+    root: info
+
+
