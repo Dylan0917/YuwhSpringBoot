@@ -4,4 +4,5 @@ yamlstu/target/*
 RestfulCRUD/target/*
 DataJDBC/target/*
 DataMyBatis/target/*
+DataJPA/target/*
 .DS_store

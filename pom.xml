@@ -17,6 +17,7 @@
         <module>RestfulCRUD</module>
         <module>DataJDBC</module>
         <module>DataMyBatis</module>
+        <module>DataJPA</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>
