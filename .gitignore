@@ -5,4 +5,5 @@ RestfulCRUD/target/*
 DataJDBC/target/*
 DataMyBatis/target/*
 DataJPA/target/*
+Monitor/target/*
 .DS_store

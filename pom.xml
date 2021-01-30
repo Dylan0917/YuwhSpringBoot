@@ -18,6 +18,7 @@
         <module>DataJDBC</module>
         <module>DataMyBatis</module>
         <module>DataJPA</module>
+        <module>Monitor</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>
