@@ -19,6 +19,8 @@
         <module>DataMyBatis</module>
         <module>DataJPA</module>
         <module>Monitor</module>
+        <module>yu-spring-boot-starter</module>
+        <module>yu-spring-boot-starter-autoconfigur</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

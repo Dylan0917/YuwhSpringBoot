@@ -6,4 +6,6 @@ DataJDBC/target/*
 DataMyBatis/target/*
 DataJPA/target/*
 Monitor/target/*
+yu-spring-boot-starter-autoconfigur/target/*
+*.iml
 .DS_store
