@@ -21,6 +21,7 @@
         <module>Monitor</module>
         <module>yu-spring-boot-starter</module>
         <module>yu-spring-boot-starter-autoconfigur</module>
+        <module>CacheModule</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>
