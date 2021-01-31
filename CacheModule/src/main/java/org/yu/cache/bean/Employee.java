@@ -1,11 +1,13 @@
 package org.yu.cache.bean;
 
+import java.io.Serializable;
+
 /**
  * @author yu.wenhua
  * @desc
  * @date 2021/1/30 17:19
  */
-public class Employee {
+public class Employee implements Serializable {
     private Integer id;
     private String lastName;
     private String email;

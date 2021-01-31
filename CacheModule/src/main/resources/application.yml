@@ -17,6 +17,8 @@ spring:
       time-between-eviction-runs-millis: 60000
       db-type: mysql
       driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 124.71.25.233
 logging:
   level:
     root: info
