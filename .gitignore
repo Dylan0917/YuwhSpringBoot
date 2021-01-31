@@ -7,5 +7,6 @@ DataMyBatis/target/*
 DataJPA/target/*
 Monitor/target/*
 yu-spring-boot-starter-autoconfigur/target/*
+CacheModule/target/*
 *.iml
 .DS_store
