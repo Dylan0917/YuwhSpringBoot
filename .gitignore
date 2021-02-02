@@ -9,5 +9,6 @@ Monitor/target/*
 yu-spring-boot-starter-autoconfigur/target/*
 CacheModule/target/*
 AMQPModule/target/*
+ElasticsearchModule/target/*
 *.iml
 .DS_store

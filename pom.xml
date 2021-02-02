@@ -23,6 +23,7 @@
         <module>yu-spring-boot-starter-autoconfigur</module>
         <module>CacheModule</module>
         <module>AMQPModule</module>
+        <module>ElasticsearchModule</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

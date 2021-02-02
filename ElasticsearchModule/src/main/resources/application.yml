@@ -1,0 +1,6 @@
+yu:
+  jest:
+    uris: http://124.71.25.233:9200/
+logging:
+  level:
+    root: debug
