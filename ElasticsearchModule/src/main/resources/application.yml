@@ -4,3 +4,7 @@ yu:
 logging:
   level:
     root: debug
+spring:
+  elasticsearch:
+    rest:
+      uris: http://124.71.25.233:9200

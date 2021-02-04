@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.yu.elasticsearchmodule.bean.Article;
+import org.yu.elasticsearchmodule.bean.Book;
+import org.yu.elasticsearchmodule.repository.BookRepository;
 
 import java.io.IOException;
 
@@ -23,6 +25,9 @@ public class BootElasticsearchApplicationTests {
 
     @Autowired
     JestClient jestClient;
+
+    @Autowired
+    BookRepository bookRepository;
 
     @Test
     public void contextLoads(){
@@ -42,5 +47,13 @@ public class BootElasticsearchApplicationTests {
 
 
     }
+    @Test
+    public void test01(){
+        Book book = new Book();
+        book.setId(1);
+        book.setBookName("fdfd");
+        bookRepository.save(book);
+    }
+
 
 }
