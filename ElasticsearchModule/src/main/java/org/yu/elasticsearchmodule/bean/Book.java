@@ -1,10 +1,13 @@
 package org.yu.elasticsearchmodule.bean;
 
+import org.springframework.data.elasticsearch.annotations.Document;
+
 /**
  * @author yu.wenhua
  * @desc
  * @date 2021/2/4 19:24
  */
+@Document(indexName = "book") //不加该注解index默认为类名
 public class Book {
     private Integer id;
     private String bookName;
