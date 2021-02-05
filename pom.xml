@@ -25,6 +25,7 @@
         <module>AMQPModule</module>
         <module>ElasticsearchModule</module>
         <module>TaskModule</module>
+        <module>SpringSecurity</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

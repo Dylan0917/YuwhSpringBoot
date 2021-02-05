@@ -11,5 +11,6 @@ CacheModule/target/*
 AMQPModule/target/*
 ElasticsearchModule/target/*
 TaskModule/target/*
+SpringSecurity/target/*
 *.iml
 .DS_store
