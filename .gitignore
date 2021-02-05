@@ -10,5 +10,6 @@ yu-spring-boot-starter-autoconfigur/target/*
 CacheModule/target/*
 AMQPModule/target/*
 ElasticsearchModule/target/*
+TaskModule/target/*
 *.iml
 .DS_store
