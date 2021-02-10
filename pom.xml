@@ -26,6 +26,8 @@
         <module>ElasticsearchModule</module>
         <module>TaskModule</module>
         <module>SpringSecurity</module>
+        <module>Dubbo-provider</module>
+        <module>Dubbo-user</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

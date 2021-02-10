@@ -12,5 +12,7 @@ AMQPModule/target/*
 ElasticsearchModule/target/*
 TaskModule/target/*
 SpringSecurity/target/*
+Dubbo-provider/target/*
+Dubbo-user/target/*
 *.iml
 .DS_store
