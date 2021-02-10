@@ -28,6 +28,9 @@
         <module>SpringSecurity</module>
         <module>Dubbo-provider</module>
         <module>Dubbo-user</module>
+        <module>SpringCloud01</module>
+        <module>SpringCloud02</module>
+        <module>SpringCloud03</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

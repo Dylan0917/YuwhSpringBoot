@@ -14,5 +14,8 @@ TaskModule/target/*
 SpringSecurity/target/*
 Dubbo-provider/target/*
 Dubbo-user/target/*
+SpringCloud01/target/*
+SpringCloud02/target/*
+SpringCloud03/target/*
 *.iml
 .DS_store
